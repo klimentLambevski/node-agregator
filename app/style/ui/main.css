@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+    background: #ccc;
+}
+
+header {
+    height: 30px;
+    background: #1FA67A;
+    border-bottom: 1px solid #015909;
+}
+
+.categories {
+    padding: 20px;
+    text-align: center;
+}
+
+.categories .category {
+    border-radius: 4px;
+    padding: 60px;
+    background: #1FA67A;
+    display: inline-block;
+    position: relative;
+    transition: transform .8s;
+    cursor: pointer;
+    margin:20px;
+    width: 90px;
+    text-align: center;
+
+}
+
+.categories .category:hover {
+    transform: scale(1.1);
+}
+
+.categories .category .category-info {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 1.6em;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.categories .category i {
+    font-size: 3em;
+    color: #fff;
+}
