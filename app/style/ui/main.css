@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 12px;
-    background: #ccc;
+    background: #f3f3f3;
 }
 
 header {
@@ -52,12 +52,10 @@ header {
 .search-container {
     padding: 20px;
     text-align: center;
-    padding: 20px;
-    text-align: center;
 }
 .search-container .search {
     border: 1px solid #00452F;
-    background: #ECECEC;
+    background: #fff;
     border-radius: 8px;
     position: relative;
     width: 70%;
