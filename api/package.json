@@ -1,0 +1,32 @@
+{
+  "name": "node-agregator",
+  "version": "0.0.1",
+  "description": "Agregator for ads",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:klimentLambevski/node-agregator.git"
+  },
+  "keywords": [
+    "node",
+    "agregator",
+    "ads"
+  ],
+  "dependencies": {
+    "request": "latest",
+    "knex": "latest",
+    "bookshelf": "latest",
+    "cheerio": "latest",
+    "lodash": "latest"
+  },
+  "author": "Kliment Lambevski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klimentLambevski/node-agregator/issues"
+  },
+  "homepage": "https://github.com/klimentLambevski/node-agregator"
+}
