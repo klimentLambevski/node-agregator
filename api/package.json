@@ -21,7 +21,8 @@
     "knex": "latest",
     "bookshelf": "latest",
     "cheerio": "latest",
-    "lodash": "latest"
+    "lodash": "latest",
+    "pg": "latest"
   },
   "author": "Kliment Lambevski",
   "license": "ISC",
