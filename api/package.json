@@ -22,7 +22,9 @@
     "bookshelf": "latest",
     "cheerio": "latest",
     "lodash": "latest",
-    "pg": "latest"
+    "pg": "latest",
+    "bluebird": "latest",
+    "node-uuid": "latest"
   },
   "author": "Kliment Lambevski",
   "license": "ISC",
