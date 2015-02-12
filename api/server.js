@@ -1,4 +1,5 @@
 var adsController = require('./controllers/ads-controller');
+var pazar3Aggregator = require('./agregator/pazar3-agregator');
 
 var collection = [{
     name:'test1',
@@ -8,4 +9,4 @@ var collection = [{
     outer_id: '11134543'
 }];
 
-adsController.saveCollection(collection);
+pazar3Aggregator.run();

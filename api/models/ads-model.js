@@ -1,4 +1,5 @@
 var bookshelf = require('../db').bookshelf;
+var adsMapper = require('./mappers/ads-mapper');
 var uuid = require('node-uuid');
 var adsModel = bookshelf.Model.extend({
     tableName: 'ads',
@@ -10,8 +11,7 @@ var adsModel = bookshelf.Model.extend({
         return body;
     },
     format: function(attrs){
-        console.log(attrs);
-        return attrs;
+        return adsMapper.mapData(attrs);
     }
 });
 
