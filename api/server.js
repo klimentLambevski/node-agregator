@@ -9,4 +9,4 @@ var collection = [{
     outer_id: '11134543'
 }];
 
-pazar3Aggregator.run();
+pazar3Aggregator.scrape();

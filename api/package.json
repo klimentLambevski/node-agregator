@@ -24,7 +24,8 @@
     "lodash": "latest",
     "pg": "latest",
     "bluebird": "latest",
-    "node-uuid": "latest"
+    "node-uuid": "latest",
+    "async": "latest"
   },
   "author": "Kliment Lambevski",
   "license": "ISC",
